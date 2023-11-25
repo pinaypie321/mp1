@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="../img/favicon-32x32.png" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="img/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <title>LAKAW Travel & Tours - Contact</title>
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav class="navbar col-lg-12 navbar-expand-lg" id="nav-bar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="../img/lakaw_logo.png" alt="Lakaw logo" id="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#site_navbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="site_navbar">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="book.html">Book</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="packages.html">Packages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="serivces.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html" id="active_page"
+                >Contact</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="register.html">Register</a>
+            </li>
+          </ul>
+          <!-- Search Bar -->
+          <form class="d-flex">
+            <input class="form-control" type="search" placeholder="" />
+            <button class="btn me-2" type="submit">
+              <img
+                src="../img/search_icon.png"
+                class="img-fluid"
+                alt=""
+                id="nav-btn"
+              />
+            </button>
+          </form>
+          <!-- Login Modal -->
+          <button
+            class="btn btn-dark"
+            data-bs-toggle="modal"
+            data-bs-target="#login"
+          >
+            LOGIN
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- Login Modal content -->
+    <div class="modal fade" id="login" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">LOGIN</h4>
+            <button class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="email"
+                />
+                <label for="email">Email address</label>
+              </div>
+              <div class="form-floating mb-2">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  placeholder="password"
+                />
+                <label for="password">Password</label>
+              </div>
+              <button
+                class="btn text-center col-lg-12"
+                style="
+                  color: white;
+                  background: linear-gradient(to right, #ffd700, #ffa500);
+                "
+              >
+                Login
+              </button>
+
+              <div class="form-check pt-3">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  name="black"
+                  value="black"
+                />
+                <label class="form-check-label" for="black">
+                  Remember Me
+                </label>
+              </div>
+              <hr />
+              <div class="row">
+                <p>
+                  Forget Password?
+                  <a href="#" class="login_link">Click Here</a>
+                </p>
+                <p>
+                  Dont Have an Account?
+                  <a href="register.html" class="login_link">Register Now</a>
+                </p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Navigation Bar -->
+    <!-- Body -->
+    <div class="container-fluid mt-5 pt-5 text-center">
+      <h1 class="display-4">Contact</h1>
+    </div>
+    <div class="container-fluid mb-5">
+      <div class="row">
+        <div class="col-lg-5 offset-lg-1">
+          <h3><b>Contact Details</b></h3>
+          <p>
+            <b>LAKAW Travel & Tours</b> is a travel and tours agency located at
+            Quezon City, Metro Manila offering Domestic Airplane Tickets, Hotel
+            Reservations, Travel Plans and Tour Reservation for every Traveler
+            to start their Bicol Escapade.
+          </p>
+          <p>
+            <b>Address :</b> 1234 Quezon Ave, Diliman, Quezon City, Metro Manila
+          </p>
+          <p><b>Landline :</b> 1234-5678</p>
+          <p><b>Phone :</b> +6391234567890</p>
+          <p><b>Email Address :</b> lakaw_traveltours@gmail.com</p>
+        </div>
+        <div class="col-lg-5">
+          <div
+            class="container fluid py-3 px-3"
+            style="
+              background: linear-gradient(to right, #ffd700, #ffa500);
+              border-radius: 2%;
+            "
+          >
+            <h3><b>Talk to Us</b></h3>
+            <form>
+              <label for="name" class="form-label">Full Name</label>
+              <input
+                type="text"
+                class="form-control mb-2"
+                id="name"
+                name="name"
+                placeholder="ex. Juan dela Cruz"
+              />
+              <label for="email" class="form-label">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="juan_dela_cruz@gmail.com"
+              />
+              <label for="self-description" class="form-label">Message</label>
+              <textarea
+                class="form-control mb-2"
+                id="self-description"
+                rows="3"
+              ></textarea>
+
+              <div class="mt-3 text-center">
+                <a href="#" class="btn btn-dark">Submit</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-12">
+          <h3><b>Where Located Here!</b></h3>
+        </div>
+        <div class="container">
+          <iframe
+            class="d-none d-md-block d-sm-block"
+            id="iframe_lg"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.381446497408!2d121.01913777487005!3d14.634275676251741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b645722f7389%3A0x3bf35745a5e6b728!2s1234%20Quezon%20Ave%2C%20Diliman%2C%20Quezon%20City%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1700837522516!5m2!1sen!2sph"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <iframe
+            class="d-sm-none d-lg-none d-xl-none"
+            id="iframe_sm"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.381446497408!2d121.01913777487005!3d14.634275676251741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b645722f7389%3A0x3bf35745a5e6b728!2s1234%20Quezon%20Ave%2C%20Diliman%2C%20Quezon%20City%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1700837522516!5m2!1sen!2sph"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="container-fluid">
+      <div class="row text-center py-5">
+        <div class="col-lg-3 text-start">
+          <h4 class="footer_header">About Us</h4>
+          <p>
+            <b><em>LAKAW Travel & Tours</em></b> : Your gateway to unforgettable
+            adventures. We specialize in crafting personalized journeys,
+            blending exploration with comfort. Our team of passionate travelers
+            ensures every trip is a seamless and enriching experience. Let
+            <b><em>LAKAW</em></b> be your guide to discovering the world's
+            wonders
+          </p>
+        </div>
+        <div class="col-lg-3 text-start">
+          <h4 class="footer_header">Contact Us</h4>
+          <p>
+            Landline : 1234-5678 <br />
+            Phone : +6391234567890 <br />
+            Email Address : lakaw_traveltours@gmail.com
+          </p>
+        </div>
+        <div class="col-lg-3 text-start">
+          <h4 class="footer_header">Quick Links</h4>
+          <p>
+            <a class="links" href="../index.html">Home </a>|
+            <a class="links" href="book.html">Book</a> |
+            <a class="links" href="packages.html">Packages</a> <br />
+            <a class="links" href="serivces.html">Services</a> |
+            <a class="links" href="contact.html">Contact</a>
+            <br />
+            <a class="links" href="register.html">Register</a>
+          </p>
+        </div>
+        <div class="col-lg-3 text-start">
+          <h4 class="footer_header">Follow Us</h4>
+
+          <a href="https://www.facebook.com/"
+            ><img src="../img/fb_logo.png" alt="" class="social_icon"
+          /></a>
+          <a href="https://twitter.com/"
+            ><img src="../img/x_logo.png" alt="" class="social_icon"
+          /></a>
+          <a href="https://www.instagram.com/"
+            ><img src="../img/insta_logo.png" alt="" class="social_icon"
+          /></a>
+          <a href="https://www.youtube.com/"
+            ><img src="../img/youtube_logo.png" alt="" class="social_icon"
+          /></a>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer -->
+  </body>
+</html>
